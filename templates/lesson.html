@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>{{ lesson.title }} - Yoruba Learning App</title>
+</head>
+<body>
+    <h1>{{ lesson.title }}</h1>
+    <ul>
+        {% for item in lesson.content %}
+            <li>{{ item }}</li>
+        {% endfor %}
+    </ul>
+</body>
+</html>
