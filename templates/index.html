@@ -1,16 +1,14 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
-    <meta charset="UTF-8">
-    <title>Yoruba Learning Application</title>
+    <title>Lessons</title>
 </head>
 <body>
-    <h1>Learn Yoruba Today!!</h1>
+    <h1>Lessons</h1>
     <ul>
         {% for lesson in lessons %}
         <li><a href="{{ url_for('lesson', lesson_id=lesson.lesson_id) }}">{{ lesson.title }}</a></li>
         {% endfor %}
     </ul>
-    
 </body>
 </html>
