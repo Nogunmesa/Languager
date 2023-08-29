@@ -4,7 +4,7 @@ app = Flask(__name__)
 
 # Sample data
 lessons = [
-    {"lesson_id": 1, "title": "Lesson 1", "content": ["Content 1", "Content 2"]}
+    {"lesson_id": 1, "title": "Body Parts", "content": ["ori", "oju", "imu", "enu", "eti", "irun", "owo", "ese", "okan", "ika", "atelese"]}
 ]
 
 @app.route('/')
